@@ -1,3 +1,4 @@
+package MultiDimArray;
 public class spiralMatrix {
 
     public static void spiral(int matrix[][]) {
