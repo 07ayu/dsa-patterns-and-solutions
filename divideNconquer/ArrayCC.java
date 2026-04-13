@@ -1,3 +1,4 @@
+package divideNconquer;
 import java.util.*;
 
 public class ArrayCC {
