@@ -1,3 +1,4 @@
+package arrays;
 public class ArraysAssignment {
 
     public static boolean check(int arr[]) {
