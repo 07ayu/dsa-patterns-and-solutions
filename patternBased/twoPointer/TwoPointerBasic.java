@@ -101,14 +101,14 @@ public class TwoPointerBasic {
 
     }
 
-    public static void mergeAdv(int arr1[], int arr2) {
-        int i = arr1.length - 1; // lst index of arr1
-        int j = 0; // 1st index of arr2
+    // public static void mergeAdv(int arr1[], int arr2) {
+    //     int i = arr1.length - 1; // lst index of arr1
+    //     int j = 0; // 1st index of arr2
 
-        //both arrays are already sorted before swaping elements 
+    //     //both arrays are already sorted before swaping elements 
         
-        //compare the 
-    }
+    //     //compare the 
+    // }
     
     static void printArr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
@@ -117,8 +117,11 @@ public class TwoPointerBasic {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 3, 0, 0, 0};
-        int arr2[] = { 2, 5, 6 };
+        // int arr[] = { 1, 2, 3, 0, 0, 0};
+        // int arr2[] = { 2, 5, 6 };
+        int arr[] = { 4, 5, 6, 0, 0, 0 };
+        int arr2[] = { 1, 2, 3 };
+        
 
         MergeSortTwoPointer(arr, 3, arr2, 3);
         printArr(arr);
