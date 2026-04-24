@@ -19,6 +19,27 @@ public class tempCodeRunnerFile {
         return sp+1;
     }
 
+class Solution {
+    public List<Integer> spiralOrder(int[][] matrix) {
+        int row = matrix.length;
+        int col = matrix[0].length;
+        List<Integer> res = new ArrayList<>();
+
+        for(int i = 0; i < row; i++){
+            for(int j = 0; j < col; j++){
+                
+                if(i == 0 ){
+                    res.set(arr[i][j]);
+                } 
+                if(i == row -1){
+
+                }
+
+            }
+        }
+    }
+}
+
     
     
     public static void main(String[] args) {
